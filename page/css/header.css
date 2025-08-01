@@ -1,0 +1,371 @@
+/* header */
+header {
+  background-color: #ffffff;
+}
+
+a {
+  all: unset;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  all: unset;
+}
+
+ul,
+li,
+nav {
+  padding: 0px;
+  margin: 0px;
+}
+.main-wrapper {
+  overflow: hidden;
+}
+.container-fluid {
+  padding: 0px;
+}
+
+.promo-link {
+  width: 100vw;
+  background: linear-gradient(90.02deg, #ebbb6c 28.88%, #d39000 70.83%);
+}
+.catalog-text {
+  display: none;
+}
+.nav {
+  display: none !important;
+}
+.number-wrapper {
+  display: none !important;
+}
+.burger-menu {
+  display: flex !important;
+}
+@media only screen and (min-width: 319px) {
+  body {
+    padding-top: 110px;
+  }
+  .logo {
+    width: 7rem !important;
+  }
+  .promo-link {
+    height: 45px;
+  }
+  .offcanvas {
+    margin-top: 110px !important;
+  }
+  .header-switcher {
+    height: 0%;
+  }
+}
+@media only screen and (min-width: 480px) {
+  body {
+    padding-top: 119px;
+  }
+  .logo {
+    width: 10rem !important;
+  }
+  .offcanvas {
+    margin-top: 119px !important;
+  }
+}
+@media only screen and (min-width: 521px) {
+  body {
+    padding-top: 104px;
+  }
+  .promo-link {
+    height: 30px;
+  }
+  .offcanvas {
+    margin-top: 104px !important;
+  }
+}
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-text {
+    display: block;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1куь;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1280px) {
+}
+
+@media only screen and (min-width: 1281px) {
+  body {
+    padding-top: 155px;
+  }
+  .offcanvas {
+    margin-top: 155px !important;
+  }
+  .burger-menu {
+    display: none !important;
+  }
+  .nav {
+    display: flex !important;
+  }
+  .number-wrapper {
+    display: flex !important;
+  }
+  .arrow-svg-1,
+  .arrow-svg-2,
+  .arrow-svg-3,
+  .arrow-svg-4,
+  .arrow-svg-5,
+  .arrow-svg-6,
+  .arrow-svg-7 {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+    display: inline-block;
+  }
+
+  .arrow-svg-1.active,
+  .arrow-svg-2.active,
+  .arrow-svg-3.active,
+  .arrow-svg-4.active,
+  .arrow-svg-5.active,
+  .arrow-svg-6.active,
+  .arrow-svg-7.active {
+    transform: rotate(180deg);
+  }
+
+  .submenu {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .submenu-1,
+  .submenu-2,
+  .submenu-3,
+  .submenu-4,
+  .submenu-5,
+  .submenu-6,
+  .submenu-7 {
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .submenu-1.active,
+  .submenu-2.active,
+  .submenu-3.active,
+  .submenu-4.active,
+  .submenu-5.active,
+  .submenu-6.active,
+  .submenu-7.active {
+    background: #ffffff;
+    width: 100vw;
+    max-width: 100%;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 20;
+    transition: 0.5s;
+    bottom: -200px;
+  }
+  .submenu-list {
+    height: 100%;
+    width: 100%;
+  }
+  .submenu-list li {
+    margin: 10px;
+  }
+  .text-button {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+  .header-switcher {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1800px) {
+}
+.number {
+  font-family: Inter;
+font-weight: 500;
+font-size: 1rem;
+
+
+}
+
+
+.catalog-button {
+  text-align: center;
+  width: 139px;
+  height: 44px;
+  position: relative;
+  border-radius: 12px;
+}
+.catalog-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  background-image: linear-gradient(141.84deg, #ebbb6c 28.88%, #d39000 70.83%);
+  border-radius: inherit;
+  mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
+}
+.promo {
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 5px;
+}
+.header-middle {
+  /* min-height: 60px; */
+  margin: 10px 0px 10px 0px;
+}
+hr {
+  margin: 0px;
+}
+.nav-link,
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+  all: unset;
+  cursor: pointer;
+  height: auto;
+  align-items: center !important;
+  width: auto;
+
+  padding: 15px;
+}
+
+button.arrow-wrapper {
+  all: unset;
+}
+
+.number-icon {
+  margin-right: 10px;
+}
+.nav-link-1.active,
+.nav-link-2.active,
+.nav-link-3.active,
+.nav-link-4.active,
+.nav-link-5.active,
+.nav-link-6.active,
+.nav-link-7.active {
+  border-bottom: 0.1rem solid rgb(0, 0, 0);
+  z-index: 9999;
+}
+
+.nav-link-1,
+.nav-link-2,
+.nav-link-3,
+.nav-link-4,
+.nav-link-5,
+.nav-link-6,
+.nav-link-7 {
+  transition: border-bottom 0.5s;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0);
+  
+}
+
+.burger-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.burger-icon span {
+  display: block;
+  width: 2rem;
+  height: 5px;
+  background-color: #d39000;
+  margin: 6px 0;
+  transition: all 0.4s ease-in-out; /* Добавим плавность */
+}
+
+/* Стили для "крестика", когда offcanvas открыт (добавим их в JS) */
+.burger-icon.open span:nth-child(1) {
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+.burger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-icon.open span:nth-child(3) {
+  transform: rotate(-44deg) translate(8px, -9px);
+}
+
+/* offcanvas */
+.offcanvas {
+  width: 100vw !important;
+  border: none !important;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  padding: 0 !important;
+  width: 100vw !important;
+}
+.accordion {
+  width: 100vw;
+  height: 100%;
+}
+.sidebar-menu .sidebar-item {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1rem !important;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.accordion-button {
+  padding: 0px;
+}
+.accordion-button::after {
+  margin-right: 15px;
+}
+.accordeon-text {
+  padding: 15px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1.3rem !important;
+  line-height: 20px;
+}
+.offcanvas-number {
+  font-family: Inter;
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+.offcanvas-icon-number {
+  height: 1.3rem;
+  width: 1.3rem;
+  margin-right: 10px;
+}
+
+/* конец header */

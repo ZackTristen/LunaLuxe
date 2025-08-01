@@ -1,0 +1,581 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Подключение Slick CSS -->
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+/>
+
+<!-- Подключение Slick темы (опционально) -->
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+/>
+
+<!-- Подключение Slick JS -->
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css" />
+<link href="/page/css/header.css" rel="stylesheet" />
+<script src="header.js"></script>
+<header
+        class="header-wrapper fixed-top d-flex flex-column align-items-center justify-content-center"
+      >
+        <a
+          href=""
+          class="promo-link d-flex flex-row justify-content-center align-items-center"
+          ><span class="promo"
+            >Порадуйте себя: дарим скидку 10% к 8 марта! Промокод: 8MARCH</span
+          ></a
+        >
+        <div class="container">
+          <div class="row header-middle">
+            <div
+              class="col-3 col-sm-3 burger-menu flex-row d-flex align-items-center justify-content-start"
+            >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                id="burger-button"
+              >
+                <span class="burger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </button>
+              <div
+                class="offcanvas offcanvas-start"
+                data-bs-backdrop="false"
+                tabindex="-1"
+                data-bs-scroll="true"
+                id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel"
+              >
+                <hr class="w-100" />
+                <div class="offcanvas-body">
+                  <div>
+                    <div
+                      class="accordion accordion-flush"
+                      id="accordionFlushExample"
+                    >
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <span class="accordeon-text"> Подушки </span>
+                        </button>
+
+                        <div
+                          id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">Подушки</li>
+                              <li class="sidebar-item">Подушки</li>
+                              <li class="sidebar-item">Подушки</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseTwo"
+                        >
+                          <span class="accordeon-text"> Одеяла </span>
+                        </button>
+
+                        <div
+                          id="flush-collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">Одеяла</li>
+                              <li class="sidebar-item">Одеяла</li>
+                              <li class="sidebar-item">Одеяла</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          <span class="accordeon-text">
+                            Одежда и аксессуары из шелка
+                          </span>
+                        </button>
+
+                        <div
+                          id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">
+                                Одежда и аксессуары из шелка
+                              </li>
+                              <li class="sidebar-item">
+                                Одежда и аксессуары из шелка
+                              </li>
+                              <li class="sidebar-item">
+                                Одежда и аксессуары из шелка
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-4"
+                          aria-expanded="false"
+                          aria-controls="flush-4"
+                        >
+                          <span class="accordeon-text"> Ароматы для сна </span>
+                        </button>
+
+                        <div
+                          id="flush-4"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">Ароматы для сна</li>
+                              <li class="sidebar-item">Ароматы для сна</li>
+                              <li class="sidebar-item">Ароматы для сна</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-5"
+                          aria-expanded="false"
+                          aria-controls="flush-5"
+                        >
+                          <span class="accordeon-text"> Идеи подарков </span>
+                        </button>
+
+                        <div
+                          id="flush-5"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">Идеи подарков</li>
+                              <li class="sidebar-item">Идеи подарков</li>
+                              <li class="sidebar-item">Идеи подарков</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-6"
+                          aria-expanded="false"
+                          aria-controls="flush-6"
+                        >
+                          <span class="accordeon-text"> Наша наука </span>
+                        </button>
+
+                        <div
+                          id="flush-6"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">Наша наука</li>
+                              <li class="sidebar-item">Наша наука</li>
+                              <li class="sidebar-item">Наша наука</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-7"
+                          aria-expanded="false"
+                          aria-controls="flush-7"
+                        >
+                          <span class="accordeon-text"> Покупателям </span>
+                        </button>
+
+                        <div
+                          id="flush-7"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <ul class="sidebar-menu">
+                              <li class="sidebar-item">Покупателям</li>
+                              <li class="sidebar-item">Покупателям</li>
+                              <li class="sidebar-item">Покупателям</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="offcanvas-number d-flex flex-row justify-content-center align-items-center"
+                      >
+                        <a
+                          href="tel:+79376652420"
+                          class="number-link"
+                          aria-label="Позвонить"
+                        >
+                          <img
+                            src="/page/img/phone.svg"
+                            class="offcanvas-icon-number"
+                            alt="Позвонить"
+                          />
+                        </a>
+                        <a class="number">8 (800) 999 99 99</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-3 col-sm-3 number-wrapper flex-row d-flex align-items-center justify-content-start"
+            >
+              <a
+                href="tel:+79376652420"
+                class="number-link"
+                aria-label="Позвонить"
+              >
+                <img
+                  src="/page/img/phone.svg"
+                  class="img-fluid number-icon"
+                  alt="Позвонить"
+                />
+              </a>
+              <a class="number">8 (800) 999 99 99</a>
+            </div>
+            <div
+              class="col-6 col-sm-6 logo-wrapper flex-row d-flex align-items-center justify-content-center"
+            >
+              <a href="" class="logo-link"
+                ><img src="page/img/logo.svg" alt="" class="img-fluid logo"
+              /></a>
+            </div>
+            <div
+              class="col-3 col-sm-3 catalog-wrapper flex-row d-flex align-items-center justify-content-end"
+            >
+              <button
+                class="catalog-button d-flex flex-row justify-content-around align-items-center"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="4" cy="4" r="1" fill="black" />
+                  <circle cx="12" cy="4" r="1" fill="black" />
+                  <circle cx="20" cy="4" r="1" fill="black" />
+
+                  <circle cx="4" cy="12" r="1" fill="black" />
+                  <circle cx="12" cy="12" r="1" fill="black" />
+                  <circle cx="20" cy="12" r="1" fill="black" />
+
+                  <circle cx="4" cy="20" r="1" fill="black" />
+                  <circle cx="12" cy="20" r="1" fill="black" />
+                  <circle cx="20" cy="20" r="1" fill="black" />
+                </svg>
+                <span class="catalog-text">КАТАЛОГ</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="w-100" />
+        <nav
+          class="container-fluid nav d-flex flex-row justify-content-center align-items-center"
+        >
+          <ul
+            class="header-switcher d-flex flex-row justify-content-between align-items-start"
+          >
+            <li class="nav-link nav-link-1" aria-current="page" href="#">
+              <button
+                class="nav-link-text-1 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Подушки</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-1 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-1 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item">Подушки</a>
+                  </li>
+                  <li><a class="nav-item">Подушки</a></li>
+                  <li><a class="nav-item">Подушки</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link nav-link-2" aria-current="page" href="#">
+              <button
+                class="nav-link-text-2 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Одеяла</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-2 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-2 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item">Одеяла</a>
+                  </li>
+                  <li><a class="nav-item">Одеяла</a></li>
+                  <li><a class="nav-item">Одеяла</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link nav-link-3" aria-current="page" href="#">
+              <button
+                class="nav-link-text-3 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Одежда и аксессуары из шелка</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-3 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-3 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item"
+                      >Одежда и аксессуары из шелка</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-item">Одежда и аксессуары из шелка</a>
+                  </li>
+                  <li>
+                    <a class="nav-item">Одежда и аксессуары из шелка</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link nav-link-4" aria-current="page" href="#">
+              <button
+                class="nav-link-text-4 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Ароматы для сна</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-4 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-4 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item"
+                      >Ароматы для сна</a
+                    >
+                  </li>
+                  <li><a class="nav-item">Ароматы для сна</a></li>
+                  <li><a class="nav-item">Ароматы для сна</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link nav-link-5" aria-current="page" href="#">
+              <button
+                class="nav-link-text-5 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Идеи подарков</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-5 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-5 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item">Идеи подарков</a>
+                  </li>
+                  <li><a class="nav-item">Идеи подарков</a></li>
+                  <li><a class="nav-item">Идеи подарков</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link nav-link-6" aria-current="page" href="#">
+              <button
+                class="nav-link-text-6 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Наша наука</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-6 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-6 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item">Наша наука</a>
+                  </li>
+                  <li><a class="nav-item">Наша наука</a></li>
+                  <li><a class="nav-item">Наша наука</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link nav-link-7" aria-current="page" href="#">
+              <button
+                class="nav-link-text-7 arrow-wrapper d-flex justify-content-center align-items-center"
+              >
+                <span class="text-button">Покупателям</span>
+                <svg
+                  width="15px"
+                  height="15px"
+                  viewBox="0 0 16 16"
+                  fill="#BCBDC2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-svg-7 arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+              <div class="submenu-7 submenu">
+                <ul
+                  class="submenu-list d-flex flex-row justify-content-around align-items-end"
+                >
+                  <li>
+                    <a href="www.google.com" class="nav-item">Покупателям</a>
+                  </li>
+                  <li><a class="nav-item">Покупателям</a></li>
+                  <li><a class="nav-item">Покупателям</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>

@@ -1,0 +1,1554 @@
+@media only screen and (min-width: 320px) {
+  
+  .carousel-inner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+  }
+  #carouselTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .carousels {
+    margin-top: 40px;
+  }
+
+  .right-carousel {
+    height: 180px;
+  }
+  .right-carousel .carousel-item .title-slider {
+    text-align: center;
+    height: 30px;
+  }
+  .right-carousel .carousel-item .text-slider {
+    text-align: center;
+    margin-top: 35px;
+    height: 100px;
+  }
+  .right-carousel-wrapper {
+    align-self: center;
+    max-width: 320px;
+  }
+  .hero-text-container {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1500px;
+    color: white;
+  }
+  .hero-text-1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    position: relative;
+  }
+  .hero-text-2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 60px;
+  }
+  .stat-anchor {
+    width: 140px;
+  }
+  .cards-button {
+    display: none;
+  }
+  .cards-button-small {
+    display: block;
+    position: absolute;
+    left: 75%;
+    top: 80%;
+  }
+  .cards-content {
+    top: 50%;
+    padding-left: 15px;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+  .cards-logo {
+    max-height: 20%;
+    margin-top: 20%;
+  }
+  .cards-title {
+    height: 50px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 39px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .cards-text {
+    padding-top: 10px;
+    height: 130px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .advance-bottom-text {
+    margin-top: auto;
+    height: 140px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 70px;
+    margin-bottom: auto;
+    color: #211c1dcc;
+    padding: 10px;
+  }
+
+  /* Добавьте это свойство для переноса слов */
+  .advance-text {
+    word-wrap: break-word;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 10px;
+  }
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    box-sizing: border-box;
+    max-height: 800px;
+  }
+
+  .card {
+    border: none !important;
+    margin: 0px 5px 0px 5px;
+  }
+  .card-group .card {
+    border: none !important;
+  }
+  .card-footer {
+    border: none !important;
+    background: none;
+  }
+  .card-body {
+    padding-left: 0;
+    height: 250px !important;
+  }
+  .card-title {
+    min-height: 50px;
+  }
+  .card-title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+  .card-text {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 0.8rem;
+
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+  .dream-aside-title {
+    text-align: center;
+  }
+  .dream-aside-text {
+    text-align: center;
+  }
+  .dream-slider .slick-prev {
+    top: 15%;
+    left: -10px;
+  }
+  .dream-slider .slick-next {
+    right: -10px;
+    top: 15%;
+  }
+
+  .dream-slider .slick-prev,
+  .dream-slider .slick-next {
+    width: 30px;
+    height: 30px;
+    background: white !important;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Стили для стрелок внутри кнопок */
+  .dream-slider .slick-prev:before,
+  .dream-slider .slick-next:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    margin-top: -2px;
+  }
+
+  /* Конкретно для стрелки "назад" */
+  .dream-slider .slick-prev:before {
+    transform: rotate(45deg);
+    margin-left: 6px;
+  }
+
+  /* Конкретно для стрелки "вперед" */
+  .dream-slider .slick-next:before {
+    transform: rotate(-135deg);
+    margin-right: 6px;
+  }
+  .store-text {
+    display: none;
+  }
+  .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+  }
+  /* .image-pack-left {
+    padding-bottom: 6px;
+  } */
+  .image-pack-left {
+    padding-right: 3px;
+    padding-bottom: 3px;
+  }
+  .image-pack-right {
+    padding-left: 3px;
+    padding-top: 3px;
+  }
+  .image-pack-left img,
+  .image-item-top img,
+  .image-item-left img,
+  .image-item-right img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+  }
+
+  .image-item-top {
+    padding-bottom: 6px;
+    position: relative;
+  }
+  .image-item-left {
+    padding-right: 3px;
+  }
+  .image-item-right {
+    padding-left: 3px;
+  }
+  .images-text-wrapper {
+    width: 65%;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 0.7rem;
+
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .images-text-spec {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+  }
+  .dream-more {
+    
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(
+      79.39deg,
+      rgba(235, 187, 108, 0.65) 6.18%,
+      rgba(211, 144, 0, 0.62) 98.93%
+    );
+    border-radius: 38px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .cards-logo {
+    max-height: 20%;
+    margin-top: 30%;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .cards-logo {
+    max-height: 20%;
+    margin-top: 40%;
+  }
+  .dream-slider .slick-prev {
+    top: 20%;
+    left: -10px;
+  }
+  .dream-slider .slick-next {
+    right: -10px;
+    top: 20%;
+  }
+
+  .dream-slider .slick-prev,
+  .dream-slider .slick-next {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Стили для стрелок внутри кнопок */
+  .dream-slider .slick-prev:before,
+  .dream-slider .slick-next:before {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Конкретно для стрелки "назад" */
+}
+@media only screen and (min-width: 575px) {
+}
+@media (min-width: 576px) {
+  .stat-anchor {
+    width: 100%;
+  }
+  .right-carousel {
+    height: 300px;
+  }
+  .right-carousel .carousel-item .title-slider {
+    text-align: left;
+    height: 50px;
+  }
+  .right-carousel .carousel-item .text-slider {
+    text-align: left;
+    margin-top: 35px;
+    height: 200px;
+  }
+  .right-carousel-wrapper {
+    align-self: flex-start;
+    max-width: 320px;
+  }
+  .carousel-indicators {
+    position: inline-block !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    right: auto;
+    height: 10%;
+    bottom: 15px;
+  }
+
+  .hero-text-1 {
+    text-align: left;
+
+    font-size: 1.2rem;
+  }
+  .hero-text-2 {
+    text-align: left;
+
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  .store-text {
+    display: block;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 10%;
+    text-transform: uppercase;
+  }
+  .card-body {
+    padding-left: 0;
+    height: 150px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .dream-more {
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+  }
+  .cards-content {
+    top: 50%;
+    padding-left: 15px;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+  .cards-logo {
+    max-height: 20%;
+    margin-top: 38%;
+  }
+  .cards-title {
+    height: 50px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 39px;
+
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .cards-text {
+    padding-top: 10px;
+  }
+
+  .cards-button {
+    display: block;
+    position: absolute;
+    left: 60%;
+    bottom: 30px;
+    background: white;
+    padding: 10px 15px 10px 15px;
+
+    border-radius: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 100%;
+    text-align: center;
+
+    text-transform: uppercase;
+  }
+  .cards-button-small {
+    display: none;
+  }
+  .column {
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    max-height: 800px;
+  }
+  .col-mod {
+    left: 50%;
+    transform: translate(50%);
+  }
+  .card-title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+  .card-text {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 1rem;
+
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+  .dream-slider .slick-prev {
+    top: 30%;
+    left: -10px;
+  }
+  .dream-slider .slick-next {
+    right: -10px;
+    top: 30%;
+  }
+
+  .dream-slider .slick-prev,
+  .dream-slider .slick-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Стили для стрелок внутри кнопок */
+  .dream-slider .slick-prev:before,
+  .dream-slider .slick-next:before {
+    width: 18px;
+    height: 18px;
+  }
+  .image-pack-left {
+    padding-bottom: 0px;
+  }
+  .image-pack-right {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .dream-aside-title {
+    text-align: unset;
+  }
+  .dream-aside-text {
+    text-align: unset;
+  }
+  .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .image-pack-left {
+    padding-bottom: 0px;
+  }
+  .images-text-wrapper {
+    top: 55%;
+    font-size: 0.8rem;
+  }
+  .images-text-spec {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .column {
+    width: calc(20% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    max-height: 800px;
+  }
+  .col-mod {
+    left: auto;
+    transform: none;
+  }
+  .cards-logo {
+    max-height: 10%;
+    margin-top: 20%;
+    margin-bottom: 20px;
+  }
+  .advance-bottom-text {
+    margin-top: auto;
+    max-height: 200px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 80px;
+    margin-bottom: auto;
+    color: #211c1dcc;
+    padding: 10px;
+  }
+
+  /* Добавьте это свойство для переноса слов */
+  .advance-text {
+    word-wrap: break-word;
+    /* word-break: break-all; */
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 10px;
+  }
+  .dream-slider .slick-prev {
+    top: 30%;
+    left: -20px;
+  }
+  .dream-slider .slick-next {
+    right: -20px;
+    top: 30%;
+  }
+
+  .dream-slider .slick-prev,
+  .dream-slider .slick-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Стили для стрелок внутри кнопок */
+  .dream-slider .slick-prev:before,
+  .dream-slider .slick-next:before {
+    width: 18px;
+    height: 18px;
+  }
+  .dream-aside-title {
+    margin-bottom: 100px;
+  }
+  .dream-aside-text {
+    margin-bottom: 100px;
+  }
+  .card-body {
+    padding-left: 0;
+    height: 250px !important;
+  }
+  .cards-title {
+    margin: 0!important;
+    line-height: 20px;
+  }
+  .cards-logo {
+    max-height: 20%;
+    margin-top: 22%!important;
+    margin-bottom: 20px;
+  }
+  .cards-text {
+    height: 90px;
+    padding: 0px;
+    font-size: 1rem!important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .cards-title {
+    margin: 0 !important;
+  }
+  .cards-logo {
+    max-height: 20%;
+    margin-top: 30%;
+    margin-bottom: 20px;
+  }
+  .cards-button {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    left: 60%;
+    bottom: 10%;
+  }
+  .advance-bottom-text {
+    margin-top: auto;
+    max-height: 200px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 100px;
+    margin-bottom: auto;
+    color: #211c1dcc;
+    padding: 10px;
+  }
+
+  /* Добавьте это свойство для переноса слов */
+  .advance-text {
+    word-wrap: break-word;
+    /* word-break: break-all; */
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    height: 50px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .images-text-wrapper {
+    top: 65%;
+    left: 8%;
+
+    font-size: 1rem;
+  }
+  .images-text-spec {
+    font-size: 1rem;
+  }
+  .cards-logo {
+    margin-top: 40%!important;
+  }
+  .cards-title {
+    height: 50px;
+
+    font-size: 1rem;
+  }
+  .cards-text {
+    padding-top: 10px;
+    height: 110px;
+
+    font-size: 1.2rem;
+
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .images-text-wrapper {
+    top: 65%;
+    left: 8%;
+
+    font-size: 2rem;
+  }
+  .images-text-spec {
+    font-size: 2rem;
+  }
+  .cards-logo {
+    margin-top: 50%!important;
+    width: 30%;
+  }
+  .cards-title {
+    
+     line-height: normal;
+    font-size: 1.6rem;
+  }
+  .cards-text {
+    padding-top: 10px;
+    height: 110px;
+
+    font-size: 1.3rem!important;
+    line-height: 40px;
+    padding-right: 10px;
+    margin-top: 2rem!important;
+  }
+}
+
+/* карусели */
+.carousel-indicators [data-bs-target] {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #d39000;
+  border: none;
+  margin: 0 15px;
+}
+
+.carousel-indicators .active {
+  background-color: #d39000;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.title-slider {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(85deg, #d39000 0%, #ebbb6c 100%); /* Градиент */
+  -webkit-background-clip: text; /* Позволяет сделать текст фоном */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-slider {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* фрейм */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 834px;
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* card карточка slider */
+.second-hr {
+  margin-bottom: 1.5rem;
+  align-self: center;
+  max-width: 95%;
+}
+.clinic {
+  margin-bottom: 2rem;
+}
+.clinic-title {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #221d1e;
+}
+
+.clinic-card {
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  margin: 10px;
+}
+
+.clinic-card-title {
+  align-self: flex-start;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 5px;
+  color: #221d1e;
+}
+.before,
+.after {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 28px;
+  padding: 5px;
+  color: #bcbdc2;
+}
+.clinic-card-content img {
+  padding: 5px;
+}
+.your-slider-container {
+  position: relative;
+  padding: 0 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Слайды */
+.clinic-card-wrapper {
+  padding: 0 15px;
+}
+.your-slider .slick-prev,
+.your-slider .slick-next {
+  width: 40px;
+  height: 40px;
+  background: white !important;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Стили для стрелок внутри кнопок */
+.your-slider .slick-prev:before,
+.your-slider .slick-next:before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin-top: -2px;
+}
+
+/* Конкретно для стрелки "назад" */
+.slick-prev:before {
+  transform: rotate(45deg);
+  margin-left: 6px;
+}
+
+/* Конкретно для стрелки "вперед" */
+.slick-next:before {
+  transform: rotate(-135deg);
+  margin-right: 6px;
+}
+
+/* Позиционирование */
+.your-slider .slick-prev {
+  left: 0;
+}
+.your-slider .slick-next {
+  right: 0;
+}
+
+/* Эффекты при наведении */
+
+/* Адаптация для мобильных */
+@media (max-width: 576px) {
+  .your-slider .slick-prev,
+  .your-slider .slick-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  .your-slider .slick-prev:before,
+  .your-slider .slick-next:before {
+    width: 10px;
+    height: 10px;
+  }
+
+  .your-slider .slick-prev {
+    left: 0;
+  }
+  .your-slider .slick-next {
+    right: 0;
+  }
+}
+.your-slider {
+  margin-bottom: 3rem;
+}
+
+.third-hr {
+  margin-bottom: 2rem;
+  align-self: center;
+  max-width: 95%;
+}
+
+.stat {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.stat-1 {
+  border-right: 1px solid rgb(238, 238, 238);
+}
+.stat-3 {
+  border-left: 1px solid rgb(238, 238, 238);
+}
+.stat-text {
+  background: linear-gradient(85deg, #d39000 0%, #ebbb6c 100%); /* Градиент */
+  -webkit-background-clip: text; /* Позволяет сделать текст фоном */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.stat-abb {
+  background: linear-gradient(85deg, #d39000 0%, #ebbb6c 100%); /* Градиент */
+  -webkit-background-clip: text; /* Позволяет сделать текст фоном */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.percent {
+  background: linear-gradient(85deg, #d39000 0%, #ebbb6c 100%); /* Градиент */
+  -webkit-background-clip: text; /* Позволяет сделать текст фоном */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 5rem;
+}
+.stat-wrapper {
+  margin-bottom: 2rem;
+}
+
+.four-hr {
+  align-self: center;
+  max-width: 95%;
+  margin-bottom: 4rem;
+}
+
+.button-wrapper {
+  margin-bottom: 2rem;
+}
+
+.more-info {
+  background: linear-gradient(85deg, #d39000 0%, #ebbb6c 100%);
+  padding: 18px;
+  border-radius: 30px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 100%;
+  max-width: 200px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.expert-wrapper {
+  margin-bottom: 3rem;
+}
+.title-expert {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 50.4px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.doc-wrapper {
+  margin-bottom: 0.7rem;
+}
+.doc {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 26px;
+
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.desc-wrapper {
+  margin-bottom: 0.7rem;
+}
+.desc {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25.2px;
+  color: #bcbdc2;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.quote-wrapper {
+  margin-bottom: 1rem;
+}
+.quote {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 25.2px;
+
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 4rem;
+}
+/* карточки */
+.cards-content {
+  width: 100%;
+  height: 100%;
+}
+.products-cards-wrapper {
+  margin-bottom: 80px;
+  padding: 0px 20px 0 20px;
+}
+.products-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.square-block {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 0px !important;
+}
+
+.square-block.visible {
+  opacity: 1;
+  transform: translate(0, 0) !important;
+}
+
+.block-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.square-block:hover .block-image {
+  transform: scale(1.05);
+  padding: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .square-block {
+    padding: 0px !important;
+  }
+}
+.block-1 {
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.block-2 {
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.block-3 {
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateX(100px);
+}
+.block-1.visible {
+  transition: all 0.5s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.block-2.visible {
+  transition: all 0.5s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.block-3.visible {
+  transition: all 0.5s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.block-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.square-block:hover .block-image {
+  transform: scale(1.05);
+  padding: 0px !important;
+}
+.image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.219);
+  background: linear-gradient(
+    to bottom,
+    rgba(185, 185, 185, 0.185),
+    rgba(63, 63, 63, 0.582)
+  );
+  pointer-events: none;
+}
+
+.products-title {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 45px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.products-spec {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 45px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* заголовок к карточке */
+.products-wrapper {
+  margin-bottom: 3rem;
+}
+.products-wrapper {
+  opacity: 0;
+  transform: translateY(150%);
+  transition: all 0.5s ease;
+}
+.products-wrapper.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+
+/* бесконечная лента */
+
+.brands-navigation {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 0;
+  position: relative;
+  transition: all 0.3s;
+  margin: 0 40px 0 40px;
+  height: 60px;
+}
+
+.brand.active:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #000;
+}
+
+.testimonial-slider {
+  max-width: 1200px;
+  align-content: center;
+}
+
+.testimonial-slider p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.brands-slider {
+  margin-bottom: 80px;
+}
+.brands-wrapper {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.brands-wrapper > * {
+  flex: 0 0 auto;
+}
+.brands-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Базовые стили для всех слайдов */
+.testimonial-slider .slick-slide {
+  opacity: 0.5;
+  transform: scale(0.7);
+  transition: all 0.3s ease;
+}
+
+/* Активный слайд (центр) */
+.testimonial-slider .slick-current {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
+/* Соседние слайды */
+.testimonial-slider .slick-prev-neighbor,
+.testimonial-slider .slick-next-neighbor {
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+
+.slider-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.brand svg {
+  fill: #d39000;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.brand.active svg {
+  fill: #000000;
+  transform: scale(1.1);
+}
+
+/* плеер */
+.how-work-wrapper {
+  position: relative;
+  width: 100%;
+  height: 455px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.img-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.how-work-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  min-width: 320px;
+}
+
+.how-work-title,
+.how-work-subtitle {
+  font-size: 1rem;
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-video-img {
+  height: 5rem;
+  width: 5rem;
+}
+.how-work-title {
+  margin-top: 30px;
+}
+.how-work-button {
+  transform: scale(1);
+  transition: all 1s;
+}
+.how-work-button:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+/* приемущества */
+
+.advents-wrapper {
+  margin-bottom: 40px;
+}
+
+.advents-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 45px;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.advents-text.spec {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 45px;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.advents-content {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-out;
+}
+
+.advents-content.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.adv-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+/* Стиль для картинки */
+.column img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Стиль для блока текста */
+.column .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  justify-content: flex-start;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.adv-wrapper + .hr, .images-wrapper + .hr {
+  width: 95%;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+/* dream-slider */
+
+.dream-wrapper {
+  padding: 0 1rem 0 1rem;
+}
+.aside {
+  max-width: 70%;
+}
+/* Если нужно убрать границу только у карточек внутри card-group */
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+/* Позиционирование */
+
+.dream-button {
+  max-width: 370px;
+  max-height: 70px;
+  padding: 15.5px 30px 15.5px 30px;
+  border-radius: 38px;
+  background: linear-gradient(
+    79.39deg,
+    rgba(235, 187, 108, 0.65) 6.18%,
+    rgba(211, 144, 0, 0.62) 98.93%
+  );
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.dream-aside {
+  margin-bottom: 30px;
+}
+.dream-aside-title {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 54px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.dream-spec {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 54px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.dream-aside-text {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #211c1dcc;
+}
+.cart-button {
+  margin-right: 10px;
+}
+
+.icon-card {
+  margin-right: 5px;
+}
+
+/* .dream-more {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  background: linear-gradient(
+    79.39deg,
+    rgba(235, 187, 108, 0.65) 6.18%,
+    rgba(211, 144, 0, 0.62) 98.93%
+  );
+  border-radius: 38px;
+  text-align: center;
+} */
+.card-footer {
+  padding: 10px 0px;
+}
+.store-card {
+  position: relative;
+}
+.store-info {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+}
+
+.dream-wrapper
+ {
+  margin-bottom: 3rem;
+}
+.images-wrapper {
+  margin-bottom: 7rem;
+}
+

@@ -1,0 +1,118 @@
+@media only screen and (min-width: 320px) {
+    .carousel-inner {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: left;
+      }
+      #carouselTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+      }
+      .carousels {
+        margin-top: 40px;
+      }
+      
+      .right-carousel {
+        height: 180px;
+      }
+      .right-carousel .carousel-item .title-slider {
+        text-align: center;
+        height: 30px;
+      }
+      .right-carousel .carousel-item .text-slider {
+        text-align: center;
+        margin-top: 35px;
+        height: 100px;
+      }
+      .right-carousel-wrapper {
+        align-self: center;
+        max-width: 320px;
+      }
+    }
+    @media only screen and (min-width: 480px) {
+    }
+    @media only screen and (min-width: 575px) {
+    }
+    @media  (min-width: 576px) {
+      .right-carousel {
+        height: 300px;
+      }
+      .right-carousel .carousel-item .title-slider {
+        text-align: left;
+        height: 50px;
+      }
+      .right-carousel .carousel-item .text-slider {
+        text-align: left;
+        margin-top: 35px;
+        height: 200px;
+      }
+      .right-carousel-wrapper {
+        align-self: flex-start;
+        max-width: 320px;
+      }
+      .carousel-indicators {
+        position: inline-block !important;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        right: auto;
+        height: 10%;
+        bottom: 15px;
+      }
+    }
+    
+    @media only screen and (min-width: 600px) {
+    }
+    
+    @media only screen and (min-width: 768px) {
+    }
+    
+    @media only screen and (min-width: 900px) {
+    }
+    
+    @media only screen and (min-width: 992px) {
+    }
+    
+    @media only screen and (min-width: 1200px) {
+    }
+    
+    @media only screen and (min-width: 1400px) {
+    }
+    
+    @media only screen and (min-width: 1800px) {
+    }
+    
+    /* карусели */
+    .carousel-indicators [data-bs-target] {
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background-color: #d39000;
+      border: none;
+      margin: 0 15px;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #d39000;
+      width: 0.5rem;
+      height: 0.5rem;
+    }
+    
+    
+    .title-slider {
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 1.5rem;
+      background: linear-gradient(85deg, #d39000 0%, #ebbb6c 100%); /* Градиент */
+      -webkit-background-clip: text; /* Позволяет сделать текст фоном */
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .text-slider {
+      font-family: Inter;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+    
